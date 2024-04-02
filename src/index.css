@@ -1,0 +1,32 @@
+:root {
+  --background-color:white;
+--foreground-color:#C689C6;
+--primary-text-color:#333;
+/* --primary-text-color:#0a0a0a; */
+--secondary-text-color:#ffffff;
+--toggle-bg:#f0eb9d;
+--toggle-fg:#ffd000;
+}
+
+[data-theme="dark"]{
+  --background-color:#0a0a0a;
+--foreground-color:#937DC2;
+/* --foreground-color:#567aff; */
+--primary-text-color:#f6f6f6;
+--secondary-text-color:#0a0a0a;
+--toggle-bg:#f0ede6;
+--toggle-fg:#00a6ff;
+}
+/* body{
+  background-color: var(--background-color)
+} */
+
+.main{
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+.maintitle{
+  text-align: center;
+  font-weight: 700;
+}
+
